@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+.logo {
+    width: 5rem;
+}
+.fuentes{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    text-transform: uppercase;
+}
+
+.fuentes li a:hover{
+background-color: #c1101a;
+color: #fff;
+}
+
+header{
+    border-bottom: 1px #c1101a solid;
+}
+
+/* HERO */
+
+.colorBtn{
+    background-color: #c1101a;
+    color: #fff;
+}
+
+.colorBtn:hover{
+    background-color: #A10000;
+    color: #fff;
+}
+
+/* .imgFondo{
+    background-image: url(../img/Kamenrider.jpg);
+    background-position: center;
+    background-size: cover;
+    } */
+
+    /* CARROUSEL */
+
+    .imgCarrousel{
+        height: 350px;
+        object-fit: cover;
+    }
+
+    /* PRODUCTOS */
+
+    .tituloProductos{
+        text-transform: uppercase;
+        padding: 1rem;
+        background-color: #c1101a;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .tituloProductos h2 {
+        font-size: 3rem;
+    }
+
+    .card{
+        border: none;
+    }
